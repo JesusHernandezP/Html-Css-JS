@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Ejercicio1</title>
+</head>
+
+<body style="margin-left: 20%; margin-right: 30%; margin-bottom: 2em;"  >
+    <h1 style="margin-top: 3em;">Mi pagina sobre Deportes</h1>
+
+    <nav>
+        <ul>
+            <li><a href="introduccion">Introduccion</a></li>
+            <li><a href="texto">Inicio</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Lorem ipsum dolor sit amet <strong>strong</strong>, adipisicing elit. Accusantium quo eaque molestiae cumque
+            iure culpa omnis id dignissimos adipisci at rerum repellendus magni provident debitis eius veritatis
+            suscipit, quae beatae.</p>
+
+        <img src="https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="">
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Eveniet labore, velit ipsum blanditiis
+            voluptatem ab, <u><mark><em>quam ut obcaecati debitis sunt amet</em></mark></u> excepturi non voluptatum
+            esse fugiat? Eveniet molestiae et est?</p>
+        <p>Lorem ipsum . Sed libero at, impedit maxime repellat excepturi facere soluta fugiat, asperiores obcaecati
+            porro vel autem <u>doloremque inventore atque commodi laborum?</u> Consequatur, omnis!</p>
+    </section>
+    <section id="formulario-registro">
+        <form action="procesar.c#" method="post">
+            <fieldset>
+            <legend><h1>Formulario de registro</h1></legend> <br><br>
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="password" style="padding-bottom: 1em;">Contraseña</label>
+            <br>
+            <input type="text" id="password" name="password">
+            <br>
+            <label for="genero">Genero:</label>
+            <input type="checkbox " id="genero" name="M" value="HTML">M
+            <input type="checkbox " id="genero" name="M" value="HTML">F
+            <br>
+            <br>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="">Seleccione un país</option>
+                <option value="es">España</option>
+                <option value="mx">México</option>
+                <option value="ar">Argentina</option>
+                <option value="ve">Venezuela</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit"> <strong>Enviar</strong></button>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="formulario-contacto">
+        <!-- formulario de contacto
+ nombre 
+ correo
+ asunto texto
+ comentarios
+ verificar terminos
+ boton enviar -->
+
+        <form action="formulario-contacto">
+            <fieldset><legend><h1>Formulario de contacto</h1> </legend>
+            
+            <br>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="url">Url:</label>
+            <br>
+            <input type="url" placeholder="introduce tu url">
+            <br>
+            <label for="color">Color</label>
+            <input type="color" name="color">
+            <br>
+            <br>
+            Comentarios
+            <br>
+            <textarea id="comentarios" name="comentarios" maxlength="200" rows="4" cols="50"></textarea>
+            <br>
+            <label for="verificar"><strong>Acepto terminos y condiciones</strong></label>
+            <input type="checkbox" name="verificar" id="verificar">
+            <br>
+            <br>
+            <button> <strong>Enviar</strong></button>
+            </fieldset>
+        </form>
+
+    </section>
+    <br><br><br>
+    <!-- Formulario  -->
+    <section>
+        <form action="encuesta-rapida">
+             <fieldset><legend><h1>Encuesta Rapida</h1> </legend>
+            <br>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="Edad">Edad</label>
+            <br>
+            <input type="number" id="Edad" name="Edad">
+            <br>
+            <label for="deportes">Te gustan los deportes?</label>
+            <input type="radio" id="deportes" name="M" value="HTML"> <strong>Si</strong>
+            <input type="radio" id="deportes" name="M" value="HTML"> <strong>No</strong>
+            <br>
+            <br>
+            <label for="pais">Hobbies</label>
+            <select id="pais" name="pais">
+                <option value="">Selecciona un Hobbie</option>
+                <option value="es">Natacion</option>
+                <option value="mx">Gym</option>
+                <option value="ar">Correr</option>
+                <option value="ve">Cine</option>
+            </select>
+            <br>
+            <br>
+            <button> <strong>Enviar</strong></button>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <strong style="padding-left: 50%;">© Copyright 2024</strong>
+    </footer>
+</body>
+
+</html>
