@@ -1,0 +1,31 @@
+body{
+  background-color: lightgrey;
+  
+
+}
+h1{
+  color: blue;
+  text-align: center;
+}
+
+.p1{
+  color: red;
+  font-size: 1rem;  
+}
+.p2{
+  color:hsl(60, 100%, 50%);
+  font-size: 1.4rem;  
+}
+
+.p3{
+  color: rgb(0, 128, 0);
+}
+
+.p4{
+  color: hwb(195 68% 10%);
+}
+
+.fondoP{
+  background-color: lightgray;
+  color: green;
+}
